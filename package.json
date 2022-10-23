@@ -28,11 +28,7 @@
     ]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [],
     "repository": {
       "type": "git",
       "url": "git+https://github.com/mednajjar/suitekitchen.git"
