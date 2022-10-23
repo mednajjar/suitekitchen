@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Suite Kitchen",
+  "name": "تصميم و تركيب المطابخ العصرية",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "suitekitchen.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
