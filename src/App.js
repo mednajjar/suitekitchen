@@ -19,7 +19,7 @@ function App() {
       <div className='flex justify-between items-center border-y py-5 px-4'>
         <div className='flex justify-around items-center'>
           <img className='h-20' src={suitekitchen} alt="logo suite kitchen" />
-          <h3 className='md:text-3xl sm:text-2xl font-serif'>Suite Kitchen</h3>
+          <h3 className='md:text-3xl sm:text-2xl font-serif'>Sweet Kitchen</h3>
         </div>
         <div>
           <h4 className='text-2xl text-bold'>+22230411047 </h4>
