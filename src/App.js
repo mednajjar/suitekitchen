@@ -22,7 +22,7 @@ function App() {
           <h3 className='md:text-3xl sm:text-2xl font-serif'>Sweet Kitchen</h3>
         </div>
         <div>
-          <h4 className='text-2xl text-bold'>+22230411047 </h4>
+          <h4 className='md:text-3xl sm:text-2xl text-bold'>+22230411047 </h4>
         </div>
       </div>
       <Grid className='mx-auto my-2'>
@@ -47,16 +47,18 @@ function App() {
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
-          style={{ textAlign: 'center', marginTop: '2%', padding: '2%' }}
+          style={{ textAlign: 'center', padding: '5% 2%' }}
           breakpoints={{
             // when window width is >= 640px
             240: {
 
               slidesPerView: 1,
+
             },
             // when window width is >= 768px
             768: {
               slidesPerView: 3,
+
             },
             1024: {
               slidesPerView: 4,
@@ -66,7 +68,7 @@ function App() {
 
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk}
               onClick={() => setSelected(sk)}
@@ -75,7 +77,7 @@ function App() {
           </SwiperSlide>
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk2 ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk2 ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk2}
               onClick={() => setSelected(sk2)}
@@ -84,7 +86,7 @@ function App() {
           </SwiperSlide>
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk3 ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk3 ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk3}
               onClick={() => setSelected(sk3)}
@@ -93,7 +95,7 @@ function App() {
           </SwiperSlide>
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk4 ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk4 ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk4}
               onClick={() => setSelected(sk4)}
@@ -102,7 +104,7 @@ function App() {
           </SwiperSlide>
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk5 ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk5 ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk5}
               onClick={() => setSelected(sk5)}
@@ -111,7 +113,7 @@ function App() {
           </SwiperSlide>
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk6 ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk6 ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk6}
               onClick={() => setSelected(sk6)}
@@ -120,7 +122,7 @@ function App() {
           </SwiperSlide>
           <SwiperSlide>
             {/* <ButtonBase> */}
-            <img style={{ width: "80%", height: "auto", border: selected === sk7 ? "2px solid orange" : "none", margin: '0 auto' }}
+            <img style={{ width: "70%", height: "auto", border: selected === sk7 ? "2px solid orange" : "none", margin: '0 auto' }}
               alt="complex"
               src={sk7}
               onClick={() => setSelected(sk7)}
