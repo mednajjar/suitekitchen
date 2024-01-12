@@ -4,6 +4,7 @@ import { ButtonBase, Grid } from '@mui/material';
 import { suitekitchen, sk, sk2, sk3, sk4, sk5, sk6, sk7, wtsap } from './assets'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import {Helmet} from "react-helmet";
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 import 'swiper/css';
@@ -139,7 +140,7 @@ function App() {
     <!-- Your Chat Plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-
+<Helmet>
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "107570595483443");
@@ -163,6 +164,7 @@ function App() {
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+    </Helmet>
       <div className='flex flex-col text-center items-center border my-8 mx-3 p-5 shadow-xl'>
 
         <h2 className='text-xl my-2'>
